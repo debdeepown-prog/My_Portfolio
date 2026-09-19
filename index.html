@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debdeep Mandal | Computer Engineer & Software Developer</title>
+  <meta name="description" content="Personal portfolio of Debdeep Mandal - Computer Science & Engineering student, Software Developer, Data Engineer, and IoT Innovator. Discover projects, skills, education, and credentials.">
+  <meta name="keywords" content="Debdeep Mandal, Computer Engineer, Software Developer, CSE, Hooghly Engineering College, Portfolio, Smart City, IoT, AI, Web Development">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Abstract Grid, Floating Particles & Neon Glow Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
+
+  <div class="floating-shape floating-shape-1"></div>
+  <div class="floating-shape floating-shape-2"></div>
+
+  <!-- Header Navigation Bar -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="avatar.png" alt="Debdeep Mandal Avatar" class="header-avatar">
+        <a href="#home" class="logo">DEBDEEP<span class="dot">.</span></a>
+      </div>
+      
+      <!-- Navigation Links -->
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Actions & Mobile Toggle -->
+      <div class="header-actions">
+        <button class="search-icon-btn" aria-label="Search or Action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12" class="line-1"></line>
+            <line x1="3" y1="6" x2="21" y2="6" class="line-2"></line>
+            <line x1="3" y1="18" x2="21" y2="18" class="line-3"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer">
+    <nav class="mobile-nav">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </nav>
+  </div>
+  <div class="drawer-backdrop"></div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      
+      <!-- Hero Left: Text Content -->
+      <div class="hero-content">
+        <h1 class="hero-banner-title">DEBDEEP</h1>
+        <div class="hero-subtitle-tag font-code">
+          <span>// DEBDEEP MANDAL</span>
+          <span style="color: var(--text-muted);">&bull;</span>
+          <span>COMPUTER ENGINEER | SOFTWARE DEVELOPER</span>
+        </div>
+
+        <p class="hero-description">
+          Computer Science & Engineering student at Hooghly Engineering & Technology College, passionate about building high-performance software, data engineering pipelines, AI solutions, and IoT innovations.<br><br>
+          <strong>Open to software engineering roles, project collaborations, and tech innovations.</strong>
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#contact" class="cta-btn-primary">
+            Connect With Me
+            <svg class="cta-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+          <a href="#projects" class="cta-btn-secondary">
+            View Projects
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Right: Futuristic 3D Geometric Card Visual -->
+      <div class="hero-visual-card">
+        <div class="wireframe-container">
+          <div class="wireframe-shape">
+            <div class="wireframe-poly"></div>
+            <div class="wireframe-poly-2"></div>
+            <div class="wireframe-poly-3"></div>
+          </div>
+          <div class="wireframe-center-play">
+            <svg viewBox="0 0 24 24" width="22" height="22">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <div class="content-container">
+
+    <!-- About Section -->
+    <section id="about" class="section-block scroll-animate">
+      <div class="section-header">
+        <span class="section-tag font-code">// ABOUT ME</span>
+        <h2 class="section-title">Profile & Background</h2>
+      </div>
+      
+      <div class="profile-layout">
+        <!-- Profile Card -->
+        <div class="profile-intro-card glass-card">
+          <p class="intro-p">
+            I am a highly motivated Computer Science & Engineering student with a strong passion for software engineering, technical problem solving, and intelligent automation. I bring practical experience in Python, C/C++, AI, data engineering, and IoT embedded systems. My goal is to build scalable, impactful software products and collaborate on forward-thinking technical initiatives.
+          </p>
+          <div style="margin-top: 1.5rem;">
+            <h4 style="color: var(--neon-cyan); font-family: var(--font-code); font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 0.8rem;">Interests & Passions</h4>
+            <ul class="interests-flex">
+              <li class="interest-pill">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm-3 8a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 9 10zm6 0a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 15 10zm-6 4.5a3 3 0 0 0 6 0"></path>
+                </svg>
+                Acting
+              </li>
+              <li class="interest-pill">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                </svg>
+                Managing
+              </li>
+              <li class="interest-pill">
+                <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="6" y1="18" x2="18" y2="6"></line>
+                  <path d="M16 4l4 4-2 2-4-4z"></path>
+                </svg>
+                Cricket
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Personal Info Dashboard Grid -->
+        <div class="info-dashboard-grid">
+          <div class="info-dash-card glass-card">
+            <span class="dash-label">Full Name</span>
+            <span class="dash-val">Debdeep Mandal</span>
+          </div>
+
+          <div class="info-dash-card glass-card">
+            <span class="dash-label">Date of Birth</span>
+            <span class="dash-val">05 July 2005</span>
+          </div>
+
+          <div class="info-dash-card glass-card">
+            <span class="dash-label">Location</span>
+            <span class="dash-val">Kolkata, WB, India</span>
+          </div>
+
+          <div class="info-dash-card glass-card">
+            <span class="dash-label">Languages</span>
+            <span class="dash-val">English, Bengali, Hindi</span>
+          </div>
+
+          <div class="info-dash-card glass-card contact-card">
+            <span class="dash-label">Phone</span>
+            <div class="dash-interactive">
+              <a href="tel:+917872219859" class="dash-val link-val">+91 7872219859</a>
+              <button class="copy-button" data-copy="+917872219859" aria-label="Copy phone number">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="tooltip">Copy</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="info-dash-card glass-card contact-card">
+            <span class="dash-label">Email</span>
+            <div class="dash-interactive">
+              <a href="mailto:debdeepmandalown@gmail.com" class="dash-val link-val email-val">debdeepmandalown@gmail.com</a>
+              <button class="copy-button" data-copy="debdeepmandalown@gmail.com" aria-label="Copy email address">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="tooltip">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Subsection -->
+      <div style="margin-top: 2rem;">
+        <h3 class="card-subtitle" style="margin-bottom: 1.5rem;">Learning Path & Education</h3>
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+          
+          <!-- Education Node 1 -->
+          <div class="timeline-node">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <div class="node-meta">
+                <span class="node-date">2024 &ndash; 2028</span>
+                <span class="node-status-tag">In Progress</span>
+              </div>
+              <h3 class="node-title">B.Tech in Computer Science and Engineering</h3>
+              <h4 class="node-sub">HOOGHLY ENGINEERING & TECHNOLOGY COLLEGE</h4>
+              <p class="node-desc">Under MAKAUT University. Focus areas: Software Development, Data Structures, Algorithms, AI, IoT, and Database Systems.</p>
+            </div>
+          </div>
+
+          <!-- Education Node 2 -->
+          <div class="timeline-node">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <div class="node-meta">
+                <span class="node-date">2022 &ndash; 2024</span>
+                <span class="node-status-tag secondary">Completed</span>
+              </div>
+              <h3 class="node-title">Higher Secondary (HS)</h3>
+              <h4 class="node-sub">Contai High School</h4>
+              <p class="node-desc"><strong>Subjects:</strong> Physics, Chemistry, Mathematics, Biology</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-block scroll-animate">
+      <div class="section-header">
+        <span class="section-tag font-code">// TECHNICAL STACK</span>
+        <h2 class="section-title">Skills & Competencies</h2>
+      </div>
+
+      <div class="skills-badge-grid">
+        <div class="skill-neon-badge cyan-glow">
+          <span class="skill-icon-dot"></span>
+          Python
+        </div>
+        <div class="skill-neon-badge">
+          <span class="skill-icon-dot"></span>
+          C / C++
+        </div>
+        <div class="skill-neon-badge pink-glow">
+          <span class="skill-icon-dot"></span>
+          AI & Machine Learning
+        </div>
+        <div class="skill-neon-badge cyan-glow">
+          <span class="skill-icon-dot"></span>
+          Web Development
+        </div>
+        <div class="skill-neon-badge">
+          <span class="skill-icon-dot"></span>
+          IoT (Internet of Things)
+        </div>
+        <div class="skill-neon-badge cyan-glow">
+          <span class="skill-icon-dot"></span>
+          Arduino Programming
+        </div>
+        <div class="skill-neon-badge pink-glow">
+          <span class="skill-icon-dot"></span>
+          Smart Sensors
+        </div>
+        <div class="skill-neon-badge">
+          <span class="skill-icon-dot"></span>
+          Problem Solving
+        </div>
+        <div class="skill-neon-badge cyan-glow">
+          <span class="skill-icon-dot"></span>
+          Project Management
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-block scroll-animate">
+      <div class="section-header">
+        <span class="section-tag font-code">// FEATURED WORK</span>
+        <h2 class="section-title">Projects Showcase</h2>
+      </div>
+
+      <div class="projects-grid-layout">
+        
+        <!-- Project Card 1 -->
+        <div class="project-glass-card">
+          <div class="project-card-header">
+            <div class="project-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <div class="project-num font-code">01 / PROJECT</div>
+          </div>
+          
+          <h3 class="project-card-title">Smart City System</h3>
+          
+          <div class="project-card-body">
+            <ul class="project-bullet-list">
+              <li>Comprehensive urban infrastructure automation including smart traffic control, smart street lighting, parking monitoring, and solar energy optimization.</li>
+              <li>Integrated smart fire safety networks and real-time air pollution control monitoring using embedded sensors.</li>
+              <li>Programmed with C/C++ on Arduino platforms to maximize sustainability and resource efficiency.</li>
+            </ul>
+          </div>
+          
+          <div class="project-card-footer">
+            <span class="footer-label">Technologies Used:</span>
+            <div class="project-tags-flex">
+              <span class="tech-mini-tag">Arduino</span>
+              <span class="tech-mini-tag">Sensors</span>
+              <span class="tech-mini-tag">IoT</span>
+              <span class="tech-mini-tag">C/C++</span>
+              <span class="tech-mini-tag">Embedded</span>
+            </div>
+            <button class="project-cta-btn">
+              View Project Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-glass-card">
+          <div class="project-card-header">
+            <div class="project-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="project-num font-code">02 / PROJECT</div>
+          </div>
+          
+          <h3 class="project-card-title">Smart Fire Safety Hospital</h3>
+          
+          <div class="project-card-body">
+            <ul class="project-bullet-list">
+              <li>Automated smoke-sensor-based fire extinguisher deployment offering immediate suppression without manual delay.</li>
+              <li>Automatic emergency window and door release system for rapid patient evacuation and smoke dissipation.</li>
+              <li>High-reliability actuator controls and instant alerts for hospital safety management.</li>
+            </ul>
+          </div>
+          
+          <div class="project-card-footer">
+            <span class="footer-label">Technologies Used:</span>
+            <div class="project-tags-flex">
+              <span class="tech-mini-tag">Arduino</span>
+              <span class="tech-mini-tag">IoT</span>
+              <span class="tech-mini-tag">Smoke Sensors</span>
+              <span class="tech-mini-tag">Actuators</span>
+              <span class="tech-mini-tag">C/C++</span>
+            </div>
+            <button class="project-cta-btn">
+              View Project Details
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section-block scroll-animate">
+      <div class="section-header">
+        <span class="section-tag font-code">// CREDENTIALS</span>
+        <h2 class="section-title">Certifications & Achievements</h2>
+      </div>
+
+      <div class="certifications-grid">
+        <div class="cert-glass-card glass-card">
+          <div class="cert-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <div class="cert-card-content">
+            <h3 class="cert-card-title">NPTEL &ndash; Data Science for Engineers</h3>
+            <span class="cert-org font-code">National Programme on Technology Enhanced Learning</span>
+          </div>
+        </div>
+
+        <div class="cert-glass-card glass-card">
+          <div class="cert-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <div class="cert-card-content">
+            <h3 class="cert-card-title">NPTEL &ndash; English Language</h3>
+            <span class="cert-org font-code">National Programme on Technology Enhanced Learning</span>
+          </div>
+        </div>
+
+        <div class="cert-glass-card glass-card">
+          <div class="cert-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <div class="cert-card-content">
+            <h3 class="cert-card-title">GLOBAL ENTREPRENEURSHIP SUMMIT</h3>
+            <span class="cert-org font-code">IIT Kharagpur / Certificate of Participation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-block scroll-animate">
+      <div class="section-header">
+        <span class="section-tag font-code">// GET IN TOUCH</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-card glass-card">
+          <h3 class="contact-form-title">Send a Message</h3>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" required placeholder="Enter your full name" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" required placeholder="name@example.com" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" required placeholder="Project inquiry / Opportunity" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" required placeholder="Write your message here..." class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Social Media Links & Cards -->
+        <div class="socials-grid">
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/debdeep-mandal-719153381" target="_blank" rel="noopener noreferrer" class="social-glass-card glass-card">
+            <div class="social-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <h3 class="social-name">LinkedIn</h3>
+              <span class="social-handle font-code">debdeep-mandal-719153381</span>
+            </div>
+            <div class="social-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/i_debdeep__?igsh=MW52c3czNHJiYjBzMQ==F" target="_blank" rel="noopener noreferrer" class="social-glass-card glass-card">
+            <div class="social-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <h3 class="social-name">Instagram</h3>
+              <span class="social-handle font-code">@i_debdeep__</span>
+            </div>
+            <div class="social-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/share/1EMdb23v7H/" target="_blank" rel="noopener noreferrer" class="social-glass-card glass-card">
+            <div class="social-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <h3 class="social-name">Facebook</h3>
+              <span class="social-handle font-code">Debdeep Mandal</span>
+            </div>
+            <div class="social-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Email Direct -->
+          <a href="mailto:debdeepmandalown@gmail.com" class="social-glass-card glass-card">
+            <div class="social-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="social-card-info">
+              <h3 class="social-name">Email</h3>
+              <span class="social-handle font-code">debdeepmandalown@gmail.com</span>
+            </div>
+            <div class="social-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-layout">
+      <div class="footer-top">
+        <a href="#home" class="logo">DEBDEEP<span class="dot">.</span></a>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/debdeep-mandal-719153381" target="_blank" rel="noopener noreferrer" class="social-icon">LinkedIn</a>
+          <a href="https://www.instagram.com/i_debdeep__?igsh=MW52c3czNHJiYjBzMQ==F" target="_blank" rel="noopener noreferrer" class="social-icon">Instagram</a>
+          <a href="https://www.facebook.com/share/1EMdb23v7H/" target="_blank" rel="noopener noreferrer" class="social-icon">Facebook</a>
+          <a href="mailto:debdeepmandalown@gmail.com" class="social-icon">Email</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p class="copy-text">&copy; 2026 Debdeep Mandal. All rights reserved.</p>
+        <p class="credits-text">Designed with premium dark navy & neon cyan/purple theme.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
