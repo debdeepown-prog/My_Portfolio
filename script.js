@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      sendMail();
       const submitBtn = contactForm.querySelector('.submit-btn');
       const originalText = submitBtn.innerHTML;
       
@@ -198,3 +199,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+function sendMail (){
+    let params = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_jiev7kn","template_w2f22sg",params)
+    .then(
+            (response) => {
+                console.log("SUCCESS!", response.status, response.text);
+            },
+            (error) => {
+                console.log("FAILED...", error);
+                console.log("Error status:", error.status);
+                console.log("Error text:", error.text);
+            }
+        );
+    emailjs.send("service_jiev7kn","template_rku5cln",params)
+}
